@@ -674,3 +674,33 @@ footer {
 .desc{
     font-size: 20px;
 }
+
+
+
+/* Add this CSS at the end of your existing style.css file or in a separate file */
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+  .projectNumber,
+  .projectContent {
+    text-align: center; /* Center align project card elements on smaller screens */
+  }
+
+  .skillContainer {
+    flex-direction: column; /* Stack skill section content vertically on smaller screens */
+    text-align: center; /* Center align skill section content on smaller screens */
+  }
+
+  .leftSkillContainer,
+  .rightSkillContainer {
+    width: 100%;
+  }
+
+  .contactMeSection .container {
+    text-align: center; /* Center align contact form section content on smaller screens */
+  }
+
+  .formFieldContainer {
+    width: 100%;
+  }
+}
